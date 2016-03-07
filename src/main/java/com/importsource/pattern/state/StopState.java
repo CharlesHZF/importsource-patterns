@@ -1,4 +1,9 @@
 package com.importsource.pattern.state;
+/**
+ * 
+ * @author Hezf
+ *
+ */
 public class StopState implements State {
 
    public void doAction(Context context) {

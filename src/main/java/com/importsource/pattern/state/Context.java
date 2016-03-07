@@ -1,4 +1,9 @@
 package com.importsource.pattern.state;
+/**
+ * hold the state
+ * @author Hezf
+ *
+ */
 public class Context {
    private State state;
 
