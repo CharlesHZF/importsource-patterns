@@ -1,6 +1,6 @@
 package com.importsource.pattern.state;
 /**
- * hold the state
+ * Context is a class which carries a State.
  * @author Hezf
  *
  */

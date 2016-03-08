@@ -1,22 +1,33 @@
 package com.importsource.pattern.state;
+
 /**
- * 
- * @author Hezf
- *http://www.tutorialspoint.com/design_pattern/state_pattern.htm
+ * <p>
+ * StatePatternDemo, our demo class, will use Context and state objects to
+ * demonstrate change in Context behavior based on type of state it is in.
+ *<p>
+ * In State pattern a class behavior changes based on its state. This type of
+ * design pattern comes under behavior pattern.
+ * <p>
+ * In State pattern, we create objects which represent various states and a
+ * context object whose behavior varies as its state object changes.
+ * <p>
+ * http://www.tutorialspoint.com/design_pattern/state_pattern.htm
+ * <p>
+ * @author Hezf 
  */
 public class StatePatternDemo {
-   public static void main(String[] args) {
-	   
-      Context context = new Context();
+	public static void main(String[] args) {
 
-      StartState startState = new StartState();
-      startState.doAction(context);
+		Context context = new Context();
 
-      System.out.println(context.getState().toString());
+		StartState startState = new StartState();
+		startState.doAction(context);
 
-      StopState stopState = new StopState();
-      stopState.doAction(context);
+		System.out.println(context.getState().toString());
 
-      System.out.println(context.getState().toString());
-   }
+		StopState stopState = new StopState();
+		stopState.doAction(context);
+
+		System.out.println(context.getState().toString());
+	}
 }
