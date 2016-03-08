@@ -11,7 +11,7 @@ package com.importsource.pattern.interpreter;
  * implementing the Expression interface. A class TerminalExpression is defined
  * which acts as a main interpreter of context in question. Other classes
  * OrExpression, AndExpression are used to create combinational expressions.
- * 
+ * <p>
  * InterpreterPatternDemo, our demo class, will use Expression class to create
  * rules and demonstrate parsing of expressions.
  * <p>
