@@ -11,7 +11,6 @@ package com.importsource.pattern.state;
  * In State pattern, we create objects which represent various states and a
  * context object whose behavior varies as its state object changes.
  * <p>
- * http://www.tutorialspoint.com/design_pattern/state_pattern.htm
  * <p>
  * @author Hezf 
  */

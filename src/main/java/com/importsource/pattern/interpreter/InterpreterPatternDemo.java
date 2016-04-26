@@ -15,6 +15,7 @@ package com.importsource.pattern.interpreter;
  * InterpreterPatternDemo, our demo class, will use Expression class to create
  * rules and demonstrate parsing of expressions.
  * <p>
+ * 
  * @author Hezf
  *
  */
@@ -34,6 +35,25 @@ public class InterpreterPatternDemo {
 		return new AndExpression(julie, married);
 	}
 
+	/**
+	 * sdfsdf
+	 * #
+	 * {}
+	 * #
+	 * {}
+	 * #
+	 * {}
+	 * 以#分隔。
+	 * 
+	 * not_nvl(
+	 *          type,
+	 *          ' AND entity_type = '+bind('type')
+	 *        )
+	 *        
+	 * 
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		Expression isMale = getMaleExpression();
 		Expression isMarriedWoman = getMarriedWomanExpression();
