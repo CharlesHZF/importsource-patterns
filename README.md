@@ -35,11 +35,11 @@ J2EE型。 （J2EE Patterns）
 
 创建型
 
-   1. Factory Method（工厂方法）	
-   2. Abstract Factory（抽象工厂）	
-   3. Builder（建造者）	
-   4. Prototype（原型）	
-   5. Singleton（单例）	
+    1. Factory Method（工厂方法）	
+    2. Abstract Factory（抽象工厂）	
+    3. Builder（建造者）	
+    4. Prototype（原型）	
+    5. Singleton（单例）	
    
 结构型
 
