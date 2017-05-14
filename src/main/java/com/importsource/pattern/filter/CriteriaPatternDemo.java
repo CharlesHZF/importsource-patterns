@@ -14,8 +14,8 @@ public class CriteriaPatternDemo {
       persons.add(new Person("Mike", "Male", "Single"));
       persons.add(new Person("Bobby", "Male", "Single"));
 
-      Criteria male = new CriteriaMale();
-      Criteria female = new CriteriaFemale();
+      Criteria male = new MaleCriteria();
+      Criteria female = new FemaleCriteria();
       Criteria single = new CriteriaSingle();
       Criteria singleMale = new AndCriteria(single, male);
       Criteria singleOrFemale = new OrCriteria(single, female);
